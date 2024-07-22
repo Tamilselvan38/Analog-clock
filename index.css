@@ -115,16 +115,6 @@ body{
 @media screen and (max-width:640px ) {
     .analog-clock{
         width: 85%;
-        height: 55%;
-    }
-    .number::after{
-        width: 3px;
-        height: 20px;
-    }
-}
-@media screen and (max-width:320px ){
-    .analog-clock{
-        width: 100%;
         height: 50%;
     }
     .number::after{
@@ -132,33 +122,33 @@ body{
         height: 20px;
     }
 }
-@media screen and (min-width:375px ) and (max-width:400px){
+@media screen and (max-width:490px ) and (min-width:400px){
+
     .analog-clock{
-        width: 100%;
-        height: 60%;
+       width: 95%;
     }
     .number::after{
         width: 3px;
         height: 20px;
     }
 }
-@media screen and (min-width:275px ) and (max-width:300px ){
+@media screen and (max-width:399px ) and (min-width:375px){
     .analog-clock{
         width: 100%;
-        height: 45%;
-    }
-    .number::after{
-        width: 3px;
-        height: 18px;
-    }
+        height: 50%;
+     }
+     .number::after{
+         width: 3px;
+         height: 20px;
+     }
 }
-@media screen and (min-width:215px ) and (max-width:274px ){
+@media screen and (max-width:374px ) and (min-width:320px){
     .analog-clock{
         width: 100%;
-        height: 35%;
-    }
-    .number::after{
-        width: 3px;
-        height: 12px;
-    }
+        height: 40%;
+     }
+     .number::after{
+         width: 3px;
+         height: 20px;
+     }
 }
